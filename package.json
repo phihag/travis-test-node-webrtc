@@ -1,0 +1,15 @@
+{
+	"name": "travis-test-node-webrtc",
+	"author": "Philipp Hagemeister <phihag@phihag.de>",
+	"description": "node-webrtc fails to build",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/phihag/travis-test-node-webrtc.git"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"wrtc": "*"
+	},
+	"private": true
+}
