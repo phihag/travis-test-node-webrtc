@@ -2,7 +2,10 @@ dist: trusty
 sudo: true
 language: node_js
 node_js:
-  - "4"
+  - "v5.5.0"
+compiler:
+  - clang
+  - gcc
 before_install:
   - npm update -g
   - clang --version
