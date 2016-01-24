@@ -2,12 +2,11 @@ dist: trusty
 sudo: true
 language: node_js
 node_js:
-  - "v5.5.0"
+  - "4"
 compiler:
   - clang
   - gcc
 before_install:
-  - npm update -g
   - clang --version
   - sudo add-apt-repository -y ppa:h-rayflood/llvm
   - sudo apt-get update -qq
