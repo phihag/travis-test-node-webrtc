@@ -4,6 +4,7 @@ language: node_js
 node_js:
   - "4"
 before_install:
+  - npm update -g
   - clang --version
   - sudo add-apt-repository -y ppa:h-rayflood/llvm
   - sudo apt-get update -qq
