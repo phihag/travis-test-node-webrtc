@@ -2,8 +2,9 @@ dist: trusty
 sudo: false
 language: node_js
 env:
-  - CC=gcc-4.8
-  - CXX=g++-4.8
+  global:
+    - CC=gcc-4.8
+    - CXX=g++-4.8
 addons:
   apt:
     sources:
