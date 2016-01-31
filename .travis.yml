@@ -1,11 +1,8 @@
 dist: trusty
 sudo: false
-language: cpp
+language: node_js
 node_js:
   - "4"
-compiler:
-  - clang
-  - gcc
 
 install:
   - if [ "$CXX" = "g++" ]; then export CXX="g++-4.8" CC="gcc-4.8"; fi
